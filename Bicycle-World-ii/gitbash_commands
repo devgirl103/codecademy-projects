@@ -1,0 +1,92 @@
+Cd into the directory you want to create the new project. 
+
+mkdir bicycle-world-ii // creates the folder 
+
+touch brands.txt  // creates the txt file inside the bicycle-world-ii folder
+
+mkdir freight  //creates new folder in bicycle-world-ii
+
+mkdir mountain //creates new folder in bicycle-world-ii
+
+mkdir racing  //creates new folder in bicycle-world-ii
+
+cd freight   // takes you to the freight folder
+
+mkdir messenger
+mkdir porteur   //created two new folders in the freight folder
+
+cd ../     //takes you back the main bicycle-world-ii folder
+
+cd racing  //takes you to the racing folder
+
+mkdir road
+mkdir track  //creates two new folders in the racing folder
+
+cd ../     //back to the bicycle-world-ii folder
+
+cd mountain  //now inside the mountain folder
+
+mkdir downhill   
+mkdir hardtail   //creates two new folders within the mountain folder
+
+cd downhill  //now inside the downhill folder
+
+mkdir heavyweight
+mkdir lightweight  //creates two new folders within the downhill folder
+
+THIS CREATES THE FILESYSTEM TO START WITH. NEXT ARE THE COMMANDS CODEACADEMY USES:
+
+pwd     //prints the current directory you are in
+/home/ccuser/workspace/bicycle-world-ii  //example
+
+ls    //lists the files/folders within the current directory you are in
+brands.txt   freight  mountain  racing
+
+cd freight   //takes you to freight directory
+cd porteur  //takes you to the porteur directory
+
+cd ../../     <--takes you back 2 directories to bicycle-world-ii folder
+
+cd mountain/downhill   //this takes you 2 directories in
+
+touch dirt.txt    //this creates a text file mud in the downhill folder
+touch mud.txt     //this creates a text file dirt in downhill folder
+
+ls      //lists the contents of the downhill directory
+dirt.txt   heavyweight   lightweight   mud.txt
+
+mkdir safety    //creates a new folder within the downhill folder
+ls
+dirt.txt   heqvyweight   lightweight  mud.txt  safety
+
+cd ../../    <--back to main directory bicycle-world-ii
+
+mkdir bmx    <--create this new directory for the bike shop in the bicycle-world-ii folder
+
+touch bmx/tricks.txt   //creates a tricks text file in the bmx folder without switching 
+                       // from the current directory bicycle-world-ii
+                       
+ls      //list all files and directories in current directory           
+
+  bmx   brands.txt  freight   mountain   racing
+  
+THE NEW FILESYSTEM LOOKS LIKE THIS:
+
+bicycle-world-ii
+  brands.txt
+  bmx 
+      tricks.txt
+  freight
+      messenger
+      porteur
+  mountain
+      downhill
+          dirt.txt
+          heavyweight
+          lightweight
+          mud.txt
+          safety 
+  racing
+       road
+       track
+       
