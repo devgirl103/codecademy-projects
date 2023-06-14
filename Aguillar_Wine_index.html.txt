@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Aguillar Family Wine Festival</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"/>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <h1>Annual Aguillar Family Wine Festival</h1>
+    </header>
+
+    <div class="container">
+        <table>
+            <!--the table header-->
+            <thead>
+                <tr>
+                    <th colspan="2">Wine Festival Schedule.</th>
+                </tr>
+                <tr>
+                    <th>Time</th>
+                    <th>Event</th>
+                </tr>
+            </thead>
+            <!--end table header. begin table body-->
+            <tbody>
+                <tr>
+                    <td class="left"><h3>12:00 pm</h3></td>
+                    <td>Welcome Reception</td>
+                </tr>
+                <tr>
+                    <td class="left"><h3>01:00 pm</h3></td>
+                    <td>Storytelling & Tasting</td>
+                </tr>
+                <tr>
+                    <td class="left"><h3>02:00 pm</h3></td>
+                    <td>Wine Luncheon</td>
+                </tr>
+                <tr>
+                    <td class="left"><h3>03:00 pm</h3></td>
+                    <td>Aguillar Family Wines</td>
+                </tr>
+                <tr>
+                    <td class="left"><h3>04:00 pm</h3></td>
+                    <td>Wine & Cheese Tasting</td>
+                </tr>
+            </tbody>
+            <!--end of table body-->
+        </table>
+    </div> <!--end of this div container with table-->
+
+    <footer> <!--footer with 3 subheadings-->
+        <h3>Contact</h3>
+        <h3>Location</h3>
+        <h3>Privacy Policy</h3>
+    </footer>
+
+</body>
+
+</html>
