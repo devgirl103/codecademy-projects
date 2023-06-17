@@ -1,0 +1,48 @@
+
+
+body {
+    font-family: 'Poppins', serif;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Palatino', 'Palatino Linotype', serif;
+    color: darkolivegreen;
+
+}
+
+h2 {
+    color: #fff;
+    font-size: 56px;
+
+}
+
+.hero {
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0;
+    margin: 30px;
+    text-shadow: 0 2px #000;
+    font-family: 'Trebuchet MS', 'Helvetica' sans-serif;
+}
+
+p {
+    color: #fff;
+    font-size: 2em;
+}
+
+.hero a {
+    color: #00FFAA;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+#footer {
+    color: darkslategray;
+    font-size: 16px;
+}
